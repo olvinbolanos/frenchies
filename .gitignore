@@ -8,6 +8,12 @@
 # testing
 /coverage
 
+# next
+/next
+/.next
+.next 
+
+
 # production
 /build
 
@@ -21,3 +27,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# process
+.process.env
