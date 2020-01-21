@@ -32,5 +32,6 @@ yarn-error.log*
 # process
 .process.env
 process.env
+env
 /env
 /process.env
