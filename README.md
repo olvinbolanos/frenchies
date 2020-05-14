@@ -26,3 +26,8 @@ Follow the guidelines set-out here to make sure the file runs with compatibility
 ## What is Next.js and how does it compile data
 
 Next.js is a framework for quickly setting up React-based apps. It provides a helpful baseline configuration, so you don’t have to manually set up features like URL routing or server-side rendering.
+
+
+**action items:**
+*ask users to place their name or email address to receive exclusive bargains on certain pets
+
