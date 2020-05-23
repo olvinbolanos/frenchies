@@ -36,10 +36,18 @@ const Profile: React.FC<ProfileProps> = () => {
   if ( data === undefined ) return <p>ERROR</p>;
   
   return (
-    
-  )
+    <Fragment>
+      <Header>My Trips</Header>
+      {data.me && data.me.trips.length ? (
+          data.me.trips.map((launch: any) => {
+            return (<LaunchTile key={launch.id} launch={launch} />);
+          })
+    ) : (
+      <p>You haven't booked any dogs</p>
+    )}
+    </Fragment>
+  );
 }
 
-
-
+export default Profile;
 
