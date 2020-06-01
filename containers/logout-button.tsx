@@ -15,8 +15,16 @@ const LogoutButton = () => {
         localStorage.clear();
       }}
     >
-    
+    <ExitIcon />
+    Logout
     </StyledButton>
-  )
+  );
 }
 
+export default LogoutButton;
+
+const StyledButton = styled('button')(menuItemClassName, {
+  background: 'none',
+  border: 'none',
+  padding: 0,
+});
